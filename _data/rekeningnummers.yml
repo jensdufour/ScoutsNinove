@@ -1,0 +1,18 @@
+- name: Groepskas
+  iban: BE12 7512 0440 3692
+- name: Barkas
+  iban: BE83 7512 0946 9015
+- name: Kapoenen
+  iban: BE95 7512 0920 1758
+- name: Welpen
+  iban: BE33 7506 7154 8946
+- name: Jongverkenners
+  iban: BE90 7506 7154 7532
+- name: Verkenners
+  iban: BE46 7512 0954 8736
+- name: Jinners
+  iban: BE71 7506 5393 6069
+- name: Voortrekkers
+  iban: BE66 7512 0954 9443
+- name: Carnaval
+  iban: BE77 7512 0920 0142
