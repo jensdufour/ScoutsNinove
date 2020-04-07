@@ -25,4 +25,4 @@ deploy:
     on:
       branch: master
 after_deploy:
-  - sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no $USERNAME@$SERVER "$COMMAND"
+  - sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no $USERNAME@$SERVER "mkdir TEST"
