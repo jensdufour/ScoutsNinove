@@ -15,7 +15,7 @@ deploy:
   - provider: pages:git
     token: $GITHUB_TOKEN
     edge: true
-    cleanup: false
+    skip_cleanup: true
     keep_history: true
     local_dir: ./site
     on:
