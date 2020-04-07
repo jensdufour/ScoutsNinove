@@ -1,13 +1,13 @@
 language: ruby
 cache: bundler
 os: linux
-before_install:
-  - yes | gem update --system --force
-  - gem install bundler
-  addons:
+addons:
   apt:
     packages:
     - sshpass
+before_install:
+  - yes | gem update --system --force
+  - gem install bundler
 install:
   - bundle install
 branches:
@@ -24,3 +24,5 @@ deploy:
     local_dir: ./site
     on:
       branch: master
+after_deploy:
+  - sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no $USERNAME@$SERVER "$COMMAND"
