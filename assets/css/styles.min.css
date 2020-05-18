@@ -25,3 +25,8 @@
         width: 60%;
     }
 }
+
+ul.navbar-nav {
+    white-space: nowrap;
+    display: contents;
+}
