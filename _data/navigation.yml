@@ -2,8 +2,6 @@
   link: nieuws.html
 - name: Informatie
   subitems:
-    - name: Barploeg
-      link: barploeg.html
     - name: Rekeningnummers
       link: rekeningnummers.html
     - name: VT-CD
@@ -20,7 +18,7 @@
   link: leiding.html
 - name: Inschrijven
   link: inschrijven.html
-- name: t Boekske
+- name: Programma
   link: boeksken.html
 - name: Contact
   subitems:
