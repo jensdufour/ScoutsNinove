@@ -14,6 +14,8 @@
       link: uniform.html
     - name: Takken
       link: takken.html
+    - name: Fiscaal Attest
+      link: assets\documents\FiscaalAttest.pdf
 - name: Leiding
   link: leiding.html
 - name: Inschrijven
