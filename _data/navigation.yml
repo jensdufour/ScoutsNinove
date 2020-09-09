@@ -1,34 +1,34 @@
 - name: Nieuws
-  link: /Nieuws
+  link: /nieuws
 - name: Informatie
   subitems:
     - name: Rekeningnummers
-      link: /Rekeningnummers
+      link: /rekeningnummers
     - name: VT-CD
-      link: /CD
+      link: /cd
     - name: Materiaalverhuur
-      link: /Materiaal
+      link: /materiaal
     - name: Kansenpas
-      link: /Kansenpas
+      link: /kansenpas
     - name: Uniform
-      link: /Uniform
+      link: /uniform
     - name: Takken
-      link: /Takken
+      link: /takken
     - name: Fiscaal Attest
       link: \assets\documents\FiscaalAttest.pdf
 - name: Leiding
-  link: /Leiding
+  link: /leiding
 - name: Inschrijven
   subitems: 
     - name: Inschrijven
-      link: /Inschrijven
+      link: /inschrijven
     - name: Lasagneverkoop
-      link: /Lasagne
+      link: /lasagne
 - name: Programma
-  link: /Boeksken
+  link: /boeksken
 - name: Contact
   subitems:
     - name: Contact
-      link: /Contact
+      link: /contact
     - name: Lokaal
-      link: /Lokaal
+      link: /lokaal
