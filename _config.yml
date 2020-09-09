@@ -26,4 +26,4 @@ markdown: kramdown
 theme: minima
 
 # Permalinking
-permalink: /:title/ 
+permalink: /:title/
