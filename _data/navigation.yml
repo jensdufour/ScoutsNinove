@@ -19,7 +19,11 @@
 - name: Leiding
   link: leiding.html
 - name: Inschrijven
-  link: inschrijven.html
+  subitems: 
+    - name: Inschrijven
+      link: inschrijven.html
+    - name: Lasagneverkoop
+      link: lasagne.html
 - name: Programma
   link: boeksken.html
 - name: Contact
