@@ -1,25 +1,19 @@
 barploeg:
-  - naam: Lukas Proesmans
-    telefoonnummer: 0470 67 17 57
-    profielfoto: \assets\img\profielfoto\LukasProesmans.jpg
   - naam: Maximiliaan Muylaert
     telefoonnummer: 0470 28 81 36
     profielfoto: \assets\img\profielfoto\MaximiliaanMuylaert.jpg
-  - naam: Senne Vanderpoorten
-    telefoonnummer: 0477 03 29 35
-    profielfoto: \assets\img\profielfoto\SenneVanderpoorten.jpg
   - naam: Joeri Moyson
     telefoonnummer: 0473 40 67 92
     profielfoto: \assets\img\profielfoto\JoeriMoyson.jpg
   - naam: Ward Beeckmans
     telefoonnummer: 0492 77 69 46
     profielfoto: \assets\img\profielfoto\WardBeeckmans.jpg
+  - naam: Nicolas Dewandere
+    telefoonnummer: 0499 16 31 02
+    profielfoto: \assets\img\profielfoto\NicolasDewandre.jpg
   - naam: Luka Wauterickx
     telefoonnummer: 0477 31 08 04
     profielfoto: \assets\img\profielfoto\LukaWauterickx.jpg
-  - naam: Othello De Vuyst
-    telefoonnummer: 0499 20 03 46
-    profielfoto: \assets\img\profielfoto\OthelloDeVuyst.jpg
   - naam: Niels Van Damme
     telefoonnummer: 0468 35 70 37
     profielfoto: \assets\img\profielfoto\NielsVanDamme.jpg
@@ -30,24 +24,27 @@ barploeg:
     telefoonnummer: 0478 17 95 92
     profielfoto: \assets\img\profielfoto\TuurDeSaedeleer.jpg
 materiaalploeg:
-  - naam: Simon Van den Brempt
-    telefoonnummer: 0471 28 03 65
-    profielfoto: \assets\img\profielfoto\SimonVandenBrempt.jpg
-  - naam: Maximiliaan Muylaert
-    telefoonnummer: 0470 28 81 36
-    profielfoto: \assets\img\profielfoto\MaximiliaanMuylaert.jpg
+  - naam: Emilio Giacomucci
+    telefoonnummer: 0489 51 29 03
+    profielfoto: \assets\img\profielfoto\EmilioGiacomucci.jpg
+    functie: Materiaalmeester
+  - naam: Alexander Willems
+    telefoonnummer: 0468 12 44 33
+    profielfoto: \assets\img\profielfoto\AlexanderWillems.jpg
+    functie: Assistent
+  - naam: Robbe Schokkaert
+    telefoonnummer: 0495 26 71 81
+    profielfoto: \assets\img\profielfoto\RobbeSchokkaert.jpeg
+    functie: Assistent
+  - naam: Luka Wauterickx
+    telefoonnummer: 0477 31 08 04
+    profielfoto: \assets\img\profielfoto\LukaWauterickx.jpg
+    functie: Assistent
   - naam: Sander Vandenbrande
-    telefoonnummer: 0475 73 92 43
+    telefoonnummer: 0472 82 40 02
     profielfoto: \assets\img\profielfoto\SanderVandenbrande.jpg
-  - naam: Ward Beeckmans
-    telefoonnummer: 0492 77 69 46
-    profielfoto: \assets\img\profielfoto\WardBeeckmans.jpg
-  - naam: Charles Maris
-    telefoonnummer: 0498 01 85 80
-    profielfoto: \assets\img\profielfoto\CharlesMaris.jpg
-  - naam: Klaas Beeckman
-    telefoonnummer: 0474 38 01 21
-    profielfoto: \assets\img\profielfoto\KlaasBeeckman.jpg
-  - naam: Cas Hemerijckx
-    telefoonnummer: 0468 24 68 20
-    profielfoto: \assets\img\profielfoto\CasHemerijckx.jpg
+    functie: Assistent
+  - naam: Simon Van den Brempt
+    telefoonnummer: 
+    profielfoto: \assets\img\profielfoto\SimonVandenBrempt.jpg
+    functie: Assistent
