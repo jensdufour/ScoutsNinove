@@ -16,6 +16,8 @@
       link: /takken
     - name: Fiscaal Attest
       link: \assets\documents\FiscaalAttest.pdf
+    - name: Privacybeleid
+      link: \assets\documents\privacy.pdf
 - name: Leiding
   link: /leiding
 - name: Inschrijven
