@@ -33,6 +33,3 @@ jobs:
         server-dir: public_html/
         dry-run: true
         log-level: verbose
-    - shell: bash
-      run: |
-        "${{ secrets.FTP_LOCATION }}"
