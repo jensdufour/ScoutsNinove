@@ -8,26 +8,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.4.0
       with:
         fetch-depth: 2
-    - uses: actions/setup-ruby@v1
+    - uses: actions/setup-ruby@v1.89.0
       with:
-        ruby-version: '2.7'
+        ruby-version: '3.0.3'
     # Install the gems in the gemfile & install ncftp
-    - name: Setup Environment.
+    - name: Setup Environment
       run: |
         bundle install
-
     # Build the site
     - name: Build Site with Jekyll.
       run: JEKYLL_ENV=production bundle exec jekyll build
-
-    - name: FTP-Deploy-Action
-      uses: sebastianpopp/ftp-action@v2.0.0
+    # Publish the site
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        host: ${{ secrets.FTP_LOCATION }}
-        user: ${{ secrets.FTP_USERNAME }}
+        server: ${{ secrets.FTP_LOCATION }}
+        username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: _site/
-        remoteDir: public_html/
+        local-dir: ./_site/
+        server-dir: public_html/
+        dangerous-clean-slate: true
