@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 2
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.7'
@@ -22,12 +24,10 @@ jobs:
       run: JEKYLL_ENV=production bundle exec jekyll build
 
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-        server: ${{ secrets.FTP_LOCATION }}
-        username: ${{ secrets.FTP_USERNAME }}
+        host: ${{ secrets.FTP_LOCATION }}
+        user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: _site/
-        server-dir: public_html/
-        dry-run: true 
-    
+        localDir: _site/
+        remoteDir: public_html/
