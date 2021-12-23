@@ -1,4 +1,4 @@
-name: Build & Upload Site
+name: Build & FTP Upload Site
 # Run on pushes to the master branch
 on: 
   push:
