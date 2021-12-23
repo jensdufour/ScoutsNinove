@@ -24,7 +24,7 @@ jobs:
       run: JEKYLL_ENV=production bundle exec jekyll build
 
     - name: FTP-Deploy-Action
-      uses: sebastianpopp/ftp-action@releases/v2
+      uses: sebastianpopp/ftp-action@v2.0.0
       with:
         host: ${{ secrets.FTP_LOCATION }}
         user: ${{ secrets.FTP_USERNAME }}
