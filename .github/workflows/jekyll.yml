@@ -32,3 +32,6 @@ jobs:
         local-dir: ./_site/
         server-dir: public_html/
         dangerous-clean-slate: true
+    - shell: bash
+      run: |
+        "${{ secrets.FTP_LOCATION }}"
