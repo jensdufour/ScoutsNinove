@@ -7,6 +7,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      server: ${{ secrets.FTP_LOCATION }}
+      username: ${{ secrets.FTP_USERNAME }}
+      password: ${{ secrets.FTP_PASSWORD }}
     steps:
     - uses: actions/checkout@v2.4.0
       with:
@@ -14,13 +18,6 @@ jobs:
     - uses: ruby/setup-ruby@v1.89.0
       with:
         ruby-version: '3.0.3'
-    - name: Opening the Chamber of Secrets
-      env:
-        TEST_GITHUB_TOKEN: ${{ secrets.FTP_LOCATION }}
-        TEST_SECRET: ${{ secrets.FTP_USERNAME }}
-      run: |
-        echo ${#TEST_GITHUB_TOKEN}
-        echo ${#TEST_SECRET}
     # Install the gems in the gemfile & install ncftp
     - name: Setup Environment
       run: |
@@ -32,9 +29,9 @@ jobs:
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        server: ${{ secrets.FTP_LOCATION }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        server: ${{ env.FTP_LOCATION }}
+        username: ${{ env.FTP_USERNAME }}
+        password: ${{ env.FTP_PASSWORD }}
         protocol: ftps
         local-dir: ./_site/
         server-dir: public_html/
