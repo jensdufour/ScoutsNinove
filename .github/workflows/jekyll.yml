@@ -31,7 +31,8 @@ jobs:
         protocol: ftps
         local-dir: ./_site/
         server-dir: public_html/
-        dangerous-clean-slate: true
+        dry-run: true
+        log-level: verbose
     - shell: bash
       run: |
         "${{ secrets.FTP_LOCATION }}"
