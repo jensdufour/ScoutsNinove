@@ -32,7 +32,6 @@ jobs:
         server: ${{ env.FTP_LOCATION }}
         username: ${{ env.FTP_USERNAME }}
         password: ${{ env.FTP_PASSWORD }}
-        protocol: ftps
         local-dir: ./_site/
         server-dir: public_html/
         log-level: minimal
